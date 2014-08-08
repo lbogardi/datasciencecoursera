@@ -11,7 +11,7 @@ create_png <- function ( file = 'plot3.png', width = 480, height = 480 ){
         ,bg     = "transparent"
         ,width  = width
         ,height = height )
-  #screen()
+ 
   # creating a plot with lines
   csv$Date<-strptime( paste(csv$Date,csv$Time), "%d/%m/%Y %H:%M:%S" )
      
