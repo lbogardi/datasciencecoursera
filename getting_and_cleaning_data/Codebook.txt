@@ -1,0 +1,413 @@
+CODEBOOK for Course project of "Getting and Cleaning data" on-line course
+
+"Activities" - STRING
+	Types of performed tasks by subjects.
+
+	Values can be one of the following:
+	- WALKING
+	- WALKING_UPSTAIRS
+	- WALKING_DOWNSTAIRS
+	- SITTING
+	- STANDING
+	- LAYING
+
+"Volunteers" - INTEGER
+	Subjects who performed the tasks listed under "Activities"
+	
+	Value range: 1-30 ( inclusive )
+
+"tBodyAcc-mean()-X" - REAL
+	The mean of: The time domain signal of the body acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAcc-mean()-Y" - REAL
+	The mean of: The time domain signal of the body acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAcc-mean()-Z" - REAL
+	The mean of: The time domain signal of the body acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAcc-std()-X" - REAL
+	The standard deviation of: The time domain signal of the body acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAcc-std()-Y" - REAL
+	The standard deviation of: The time domain signal of the body acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAcc-std()-Z" - REAL
+	The standard deviation of: The time domain signal of the body acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-mean()-X" - REAL
+	The mean of: The time domain signal of the gravitational acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-mean()-Y" - REAL
+	The mean of: The time domain signal of the gravitational acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-mean()-Z" - REAL
+	The mean of: The time domain signal of the gravitational acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-std()-X" - REAL
+	The standard deviation of: The time domain signal of the gravitational acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-std()-Y" - REAL
+	The standard deviation of: The time domain signal of the gravitational acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAcc-std()-Z" - REAL
+	The standard deviation of: The time domain signal of the gravitational acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-mean()-X" - REAL
+	The mean of: The time domain signal of the body acceleration jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-mean()-Y" - REAL
+	The mean of: The time domain signal of the body acceleration jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-mean()-Z" - REAL
+	The mean of: The time domain signal of the body acceleration jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-std()-X" - REAL
+	The standard deviation of: The time domain signal of the body acceleration jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-std()-Y" - REAL
+	The standard deviation of: The time domain signal of the body acceleration jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerk-std()-Z" - REAL
+	The standard deviation of: The time domain signal of the body acceleration jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-mean()-X" - REAL
+	The mean of: The time domain signal of the gyroscope in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-mean()-Y" - REAL
+	The mean of: The time domain signal of the gyroscope in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-mean()-Z" - REAL
+	The mean of: The time domain signal of the gyroscope in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-std()-X" - REAL
+	The standard deviation of: The time domain signal of the gyroscope in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-std()-Y" - REAL
+	The standard deviation of: The time domain signal of the gyroscope in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyro-std()-Z" - REAL
+	The standard deviation of: The time domain signal of the gyroscope in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-mean()-X" - REAL
+	The mean of: The time domain signal of the gyroscope jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-mean()-Y" - REAL
+	The mean of: The time domain signal of the gyroscope jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-mean()-Z" - REAL
+	The mean of: The time domain signal of the gyroscope jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-std()-X" - REAL
+	The standard deviation of: The time domain signal of the gyroscope jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-std()-Y" - REAL
+	The standard deviation of: The time domain signal of the gyroscope jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerk-std()-Z" - REAL
+	The standard deviation of: The time domain signal of the gyroscope jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccMag-mean()" - REAL
+	The mean of: The time domain signal of the body acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccMag-std()" - REAL
+	The standard deviation of: The time domain signal of the body acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAccMag-mean()" - REAL
+	The mean of: The time domain signal of the gravitational acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tGravityAccMag-std()" - REAL
+	The standard deviation of: The time domain signal of the gravitational acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerkMag-mean()" - REAL
+	The mean of: The time domain signal of the body acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyAccJerkMag-std()" - REAL
+	The standard deviation of: The time domain signal of the body acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroMag-mean()" - REAL
+	The mean of: The time domain signal of the gyroscope acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroMag-std()" - REAL
+	The standard deviation of: The time domain signal of the gyroscope acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerkMag-mean()" - REAL
+	The mean of: The time domain signal of the gyroscope magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"tBodyGyroJerkMag-std()" - REAL
+	The standard deviation of: The time domain signal of the gyroscope magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+    
+"fBodyAcc-mean()-X" - REAL
+	The mean of: The frequency domain signal of the body acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-mean()-Y" - REAL
+	The mean of: The frequency domain signal of the body acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-mean()-Z" - REAL
+	The mean of: The frequency domain signal of the body acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-std()-X" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-std()-Y" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-std()-Z" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-meanFreq()-X" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-meanFreq()-Y" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAcc-meanFreq()-Z" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-mean()-X" - REAL
+	The mean of: The frequency domain signal of the body acceleration jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-mean()-Y" - REAL
+	The mean of: The frequency domain signal of the body acceleration jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-mean()-Z" - REAL
+	The mean of: The frequency domain signal of the body acceleration jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-std()-X" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-std()-Y" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-std()-Z" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-meanFreq()-X" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration jerk in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-meanFreq()-Y" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration jerk in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccJerk-meanFreq()-Z" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration jerk in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-mean()-X" - REAL
+	The mean of: The frequency domain signal of the gyroscope in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-mean()-Y" - REAL
+	The mean of: The frequency domain signal of the gyroscope in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-mean()-Z" - REAL
+	The mean of: The frequency domain signal of the gyroscope in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-std()-X" - REAL
+	The standard deviation of: The frequency domain signal of the gyroscope in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-std()-Y" - REAL
+	The standard deviation of: The frequency domain signal of the gyroscope in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-std()-Z" - REAL
+	The standard deviation of: The frequency domain signal of the gyroscope in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-meanFreq()-X" - REAL
+	The mean frequency of: The frequency domain signal of the gyroscope in the X-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-meanFreq()-Y" - REAL
+	The mean frequency of: The frequency domain signal of the gyroscope in the Y-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyGyro-meanFreq()-Z" - REAL
+	The mean frequency of: The frequency domain signal of the gyroscope in the Z-axis (in XYZ space) direction.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccMag-mean()" - REAL
+	The mean of: The frequency domain signal of the body acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccMag-std()" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyAccMag-meanFreq()" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyAccJerkMag-mean()" - REAL
+	The mean of: The frequency domain signal of the body acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyAccJerkMag-std()" - REAL
+	The standard deviation of: The frequency domain signal of the body acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyAccJerkMag-meanFreq()" - REAL
+	The mean frequency of: The frequency domain signal of the body acceleration magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroMag-mean()" - REAL
+	The mean of: The frequency domain signal of the gyroscope magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroMag-std()" - REAL
+	The standard deviation of: The frequency domain signal of the gyroscope magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroMag-meanFreq()" - REAL
+	The mean frequency of: The frequency domain signal of the gyroscope magnitude.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroJerkMag-mean()" - REAL
+	The mean of: The frequency domain signal of the gyroscope magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroJerkMag-std()" - REAL
+	The standard deviation of: The frequency domain signal of the gyroscope magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+
+"fBodyBodyGyroJerkMag-meanFreq()" - REAL
+	The mean frequency of: The frequency domain signal of the gyroscope magnitude jerk.
+	
+	Value range: -1 - +1 ( inclusive )
+	
